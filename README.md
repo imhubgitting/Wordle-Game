@@ -13,3 +13,6 @@ Input Validation: Improve input validation to accept only alphabetic characters 
 Save Game State: Implementing SharedPreferences or SQLite to save game state will allow users to continue their game sessions across app launches.
 Settings/Menu: Introduce settings or a menu for customizable UI elements, such as themes or font sizes, to personalize the app experience.
 Reset Button: Adding a reset button will enable users to start a new game or reset their current game state easily.
+
+Demo:
+https://appetize.io/app/b_hgsvuyhxivlsa5tg3uaypdoaum
