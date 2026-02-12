@@ -18,3 +18,5 @@ Reset Button: Adding a reset button will enable users to start a new game or res
 
 Demo:
 https://appetize.io/app/b_hgsvuyhxivlsa5tg3uaypdoaum
+
+[View Presentation](Wordle%20App%20Project.pdf)
