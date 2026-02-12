@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.WordleGame" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/paleblue_900</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/blue_900</item>
+
+        <item name="editTextBackground">@drawable/edit_text_background_dark</item>
+    </style>
+</resources>
+
+
+

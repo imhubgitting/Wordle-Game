@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- GridView for previous guesses -->
+    <GridView
+        android:id="@+id/gridPreviousGuesses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="5"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:stretchMode="columnWidth"/>
+
+
+
+
+    <!-- Button to submit the guess --><EditText
+    android:id="@+id/etGuessInput"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="61dp"
+    android:layout_toStartOf="@id/btnSubmitGuess"
+    android:layout_weight="1"
+    android:background="?attr/editTextBackground"
+    android:gravity="center"
+    android:hint="Enter your guess"
+    android:inputType="text"
+    android:maxLength="5"
+    android:maxLines="1"
+    android:textSize="18sp"
+    android:imeOptions="actionSend"/>
+    <Button
+        android:id="@+id/btnSubmitGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="61dp"
+        android:text="Check"
+        android:textSize="18sp" />
+
+</RelativeLayout>
