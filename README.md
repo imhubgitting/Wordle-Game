@@ -1,3 +1,5 @@
+Created by: Rikki Villafranca, John Negrin, Gavin Antonacci
+
 Basic outline of how the Wordle game will work.The app allows users to guess a 5-letter word chosen randomly from a list. The app validates the guess length, gives feedback on each guess indicating correct letters and wrong positions with "+" and incorrect letters with "-", and shows the previous guesses in a GridView.
 
 Things to consider for improvement:
